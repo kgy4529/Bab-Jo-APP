@@ -23,7 +23,10 @@
         android:layout_height="61dp"
         android:layout_gravity="start"
 
+        android:background="@color/white"
         app:itemBackground="@color/white"
+        app:itemTextColor="@drawable/bottom_icon_color"
+        app:itemIconTint="@drawable/bottom_icon_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
