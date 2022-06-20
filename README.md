@@ -1,49 +1,12 @@
-# Android TensorFlow Lite Machine Learning Example
+#휴스타 프로젝트 2조(밥조) - 인공지능 기술이 적용된 레시피 추천 시스템 (앱)
 
-[![Mindorks](https://img.shields.io/badge/mindorks-opensource-blue.svg)](https://mindorks.com/open-source-projects)
-[![Mindorks Community](https://img.shields.io/badge/join-community-blue.svg)](https://mindorks.com/join-community)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://opensource.org/licenses/Apache-2.0)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/amitshekhariitbhu/Android-TensorFlow-Lite-Example/blob/master/LICENSE)
+###프로젝트 기능
+1. 이미지 인식기반 식재료 등록
+: 직접 사진을 찍거나 갤러리 이미지를 가져오기
+-> tensorflow lite 학습모델을 이용하여 객체 감지
+-> 인식된 재료의 이름 자동 출력
+-> 식재료 전송 버튼으로 사용자의 db에 저장
 
-##  About Android TensorFlow Lite Machine Learning Example
-* This is an example project for integrating [TensorFlow Lite](https://www.tensorflow.org/mobile/tflite/) into Android application
-* This project include an example for object detection for an image taken from camera using TensorFlow Lite library.
-
-# [Read this article. It describes everything about TensorFlow Lite for Android.](https://afteracademy.com/blog/android-tensorflow-lite-machine-learning-example)
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/amitshekhariitbhu/Android-TensorFlow-Lite-Example/master/assets/keyboard_example.png" width="250">
-  <img src="https://raw.githubusercontent.com/amitshekhariitbhu/Android-TensorFlow-Lite-Example/master/assets/pen_example.png" width="250">
-  <img src="https://raw.githubusercontent.com/amitshekhariitbhu/Android-TensorFlow-Lite-Example/master/assets/wallet_example.png" width="250">
-</p>
-<img src=https://raw.githubusercontent.com/amitshekhariitbhu/Android-TensorFlow-Lite-Example/master/assets/sample_combined.png >
-<br>
-<br>
-
-### Find this project useful ? :heart:
-* Support it by clicking the :star: button on the upper right of this page. :v:
-
-### Credits
-* The classifier example has been taken from Google TensorFlow example.
-
-[Check out Mindorks awesome open source projects here](https://mindorks.com/open-source-projects)
-
-### License
-```
-   Copyright (C) 2018 MINDORKS NEXTGEN PRIVATE LIMITED
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
-```
-
-### Contributing to Android TensorFlow Lite Machine Learning Example
-Just make pull request. You are in!
+2. 식재료 기반 레시피 추천
+: 로그인한 이용자에 저장되어 있는 식재료로 만들 수 있는 레시피 출력
+-> 쿼리문을 활용하여 이용자의 데이터베이스 안에 있는 식재료들을 포함하는 레시피를 출력
